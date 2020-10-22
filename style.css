@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f3f3f3;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tillana", cursive;
+}
+h1 {
+  font-size: 5rem;
+  color: red;
+  margin: 2rem;
+}
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav ul li {
+  padding: 1rem 1.5rem;
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo img {
+  height: 75px;
+  border-radius: 25px;
+}
+
+ul {
+  display: flex;
+}
+li {
+  padding: 1rem 1.5rem;
+}
+.menuNav li {
+  margin: 1rem;
+}
+
+.section-a {
+  margin: 3rem;
+}
+
+.section-a h4 {
+  text-align: left;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+.section-a p {
+  padding: 10px;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.background-home {
+  background: url("https://www.rollingstone.com/wp-content/uploads/2018/07/guns-n-roses-appetite-for-destruction-box-set-review-7c78af26-7977-4282-9dfb-080d2ae890bf.jpg?resize=1800,1200&w=1200")
+    no-repeat 50% 5% / cover;
+  height: 40vh;
+}
+section .album-list {
+  display: flex;
+  text-align: center;
+  margin: 1rem;
+}
+.section-a .disc-grid {
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  margin: 1rem;
+}
+.section-a .disc-grid .item {
+  padding: 1rem;
+  text-align: center;
+}
+section img {
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  text-align: center;
+}
